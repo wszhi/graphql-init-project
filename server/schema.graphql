@@ -13,3 +13,8 @@ type People {
     name: String
     age:String
 }
+
+type Pet {
+    id: ID
+    name: String
+}
