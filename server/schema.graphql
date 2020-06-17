@@ -1,3 +1,15 @@
 type Query {
-    hello: String
+    user: User
+    people: People
+}
+
+type User {
+    id: ID
+    name: String
+}
+
+type People {
+    id: ID
+    name: String
+    age:String
 }
