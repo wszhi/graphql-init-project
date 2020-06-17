@@ -1,6 +1,6 @@
 type Query {
     user: User
-    people: People
+    people(id:String): People
 }
 
 type User {
